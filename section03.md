@@ -35,3 +35,9 @@ create-react-app (slow and outdated)
 vite: modern build tool
 
 16. Setting Up a Project With Create-React-App
+
+```
+npx create-react-app <project_name>
+npm start
+```
+
