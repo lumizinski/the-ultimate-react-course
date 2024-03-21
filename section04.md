@@ -24,6 +24,7 @@ const newGenres = ["epic fantasy", ...genres];
 ```
 
 20. Template literals
+
 ```
 const summary = `${title}, a ${pages}-page long book, was written by ${author} and published in ${getYear(
   publicationDate
@@ -56,13 +57,18 @@ const getYear = (str) => str.split("-")[0];
 const getYear = (str) => { 
   return str.split("-")[0] 
 };
+```
 
 23. Short-Circuiting And Logical Operators: &&, ||, ??
+
+```
 && - returns the first value if the first one is falsy
 || - returns the second value if the first one is truthy
 ?? - returns the second value if the first one is nil or undefined
+```
 
 24. Optional Chaining
+
 ```
   const librarything = book.reviews?.librarything?.reviewsCount ?? 0;
 ```
